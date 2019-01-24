@@ -2,13 +2,13 @@
 <br>*(assume babycode.bc contains babyC code in .bc file)<br>
 
 This programs reads a file(like testx.bc) and outputs 2 files(testx.iloc: this contains assembly code, report.txt: this contains compiling ERRORS if any).<br>
-  1). If the code is indeed without error then it outputs the assembly level equivalent to testx.iloc file and has variables declared in report.txt file.<br>
-  2). If there is comipling error on the file then the program does output the testx.iloc file and in the report.txt it states which line the error occured.<br>
+  1). If the code is without error then it outputs the assembly level equivalent to testx.iloc file and report.txt file has no errors.<br>
+  2). If the code indeed has errors then the program outputs the testx.iloc(up to the point of error) and in the report.txt it states which line the error occured.<br>
 
-<br>If there are no error on report.txt file then there was no compile error for the code.
+If there are no error on report.txt file then there was no compile error for the code.
 
 So far compiler works for:<br>
-  1). Making sure variable is declared and of proper type.<br>
+  1). Making sure variable is declared. It also checks to be sure variables that are being assigned/reassigned are being assigned value of their type.(i.e. name is of type string, then the compiler gives error if the code tries to reassign it to number)<br>
   2). If/else statements<br>
   3). While Loops<br>
   
