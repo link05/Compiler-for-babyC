@@ -13,4 +13,4 @@ So far compiler works for:<br>
   3). While Loops<br>
   
 *compiler works for nested if/else/while loops.*<br>
-If there is any issue with those three, the program spits out where the line where the error occured following a somewhat specfic error.
+If there is any issue with those three, the program spits out line number where the error occured with a specific message.
