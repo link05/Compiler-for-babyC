@@ -8,7 +8,7 @@ This programs reads a file(like testx.bc) and outputs 2 files(testx.iloc: this c
 If there are no error on report.txt file then there was no compile error for the code.
 
 So far compiler works for:<br>
-  1). Making sure variable is declared. It also checks to be sure variables that are being assigned/reassigned are being assigned value of their type.(i.e. name is of type string, then the compiler gives error if the code tries to reassign it to number)<br>
+  1). Making sure variable is declared. It also checks to be sure variables that are being assigned/reassigned are being assigned value of their type.(i.e. name is of type string, then the compiler checks if name is being assined to string value. If not, compiler gives error gives error)<br>
   2). If/else statements<br>
   3). While Loops<br>
   
