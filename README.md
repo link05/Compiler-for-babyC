@@ -7,10 +7,10 @@ This programs reads a file(like testx.bc) and outputs 2 files(testx.iloc: this c
 
 <br>If there are no error on report.txt file then there was no compile error for the code.
 
-So far compiler works for:
-  1). Making sure variable is declared and of proper type.
-  2). If/else statements
-  3). While Loops
+So far compiler works for:<br>
+  1). Making sure variable is declared and of proper type.<br>
+  2). If/else statements<br>
+  3). While Loops<br>
   
-*compiler works for nested if/else/while loops.*
+*compiler works for nested if/else/while loops.*<br>
 If there is any issue with those three, the program spits out where the line where the error occured following a somewhat specfic error.
