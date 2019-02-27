@@ -1,5 +1,5 @@
 # Compiler-for-babyC
-<br>*(assume babycode.bc contains babyC code in .bc file)<br>
+<br>*assume babycode.bc contains babyC code in .bc file<br>
 
 This programs reads a file(like testx.bc) and outputs 2 files(testx.iloc: this contains assembly code, report.txt: this contains compiling ERRORS if any).<br>
   1). If the code is without error then it outputs the assembly level equivalent to testx.iloc file and report.txt file has no errors.<br>
