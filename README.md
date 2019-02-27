@@ -1,4 +1,6 @@
-# Compiler-for-babyC (babyC is C language without functions, creating objs. Basically a C language with variables, conditional statements and while loop). 
+# Compiler-for-babyC <nr>
+
+(babyC is C language without functions, creating objs. Basically a C language with variables, conditional statements and while loop). 
 <br>*assume babycode.bc contains babyC code in .bc file<br>
 
 This programs reads a file(like testx.bc) which contains the C code and outputs 2 files(testx.iloc: this contains assembly code, report.txt: this contains compiling ERRORS if any).<br>
